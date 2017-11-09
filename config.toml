@@ -1,0 +1,39 @@
+baseURL = "https://thenorthremembers.netlify.com"
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+
+title = "Docdock"
+theme = "docdock"
+themesdir = "themes"
+
+[params]
+editURL = "https://github.com/siddhantrimal/remember/edit/master/content/"
+showVisitedLinks = true # default is false
+themeStyle = "original" # "original" or "flex" # default "original"
+themeVariant = "" # choose theme variant "green", "gold" , "gray", "blue" (default)
+ordersectionsby = "weight" # ordersectionsby = "title"
+disableHomeIcon = false # default is false
+disableSearch = false # default is false
+disableNavChevron = false # set true to hide next/prev chevron, default is false
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+
+[[menu.shortcuts]]
+pre = "<hr style='background-color:#fff;'/>"
+name = "<i class='fa fa-github'></i> Github repo"
+identifier = "ds"
+url = "https://github.com/siddhantrimal/remember"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-bookmark'></i> Usage Documentation"
+identifier = "hugodoc"
+url = "https://themes.gohugo.io/theme/docdock/"
+weight = 20
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-bullhorn'></i> Credits"
+url = "/credits"
+weight = 30
