@@ -1,9 +1,8 @@
 baseURL = "https://thenorthremembers.netlify.com"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-
-title = "Docdock"
-theme = "docdock"
+title = "Remember"
+theme = "docdock-remember"
 themesdir = "themes"
 
 [params]
