@@ -37,13 +37,18 @@ Default Selections are RSA 4096. Enter for unlimited validity or, be paranoid. E
 
 	```
 
-4. If exists, use the KeyID such as `3DC4E8720416D86A` like this, to get the GPG Key
+4. If exists, use the KeyID such as `3EC4B8420416E86B` like this, to get the GPG Key
 	```
-	gpg --armor --export 3DC4E8720416D86A
+	gpg --armor --export 3EC4B8420416E86B
 	```
 
 5. Paste the GPG key in your Github account [settings](https://github.com/settings/keys)
 
+6. Tell Git about the GPG key you're going to use
+	```
+	git config --global user.signingkey 3EC4B8420416E86B
+	```
+
 {{%panel theme="danger" header="What are GPG Keys?"%}}
-GPG Keys allow you to sign your Github commits. They tell github and other users that it's really you, who is committing the change. Learn mode about GPG [here](https://help.github.com/articles/about-gpg). A much longer, and detailed, step to create GPG keys is over [here](https://help.github.com/articles/signing-commits-with-gpg/).
+GPG Keys allow you to sign your Github commits. They tell github and other users that it's really you, who is committing the change. Learn more about GPG [here](https://help.github.com/articles/about-gpg). A much longer, and detailed, step to create GPG keys is over [here](https://help.github.com/articles/signing-commits-with-gpg/).
 {{%/panel%}}

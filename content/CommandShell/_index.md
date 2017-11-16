@@ -1,9 +1,9 @@
 +++
-title= "Presentations"
-date= 2017-11-13T07:26:16+05:45
+title= "Command Shell"
+date= 2017-11-16T12:44:58+05:45
 description = ""
 draft= false
-weight= 998
+weight=4
 # Type of content, set "slide" to display it fullscreen with reveal.js
 type="page"
 # Creator's Display name
@@ -16,4 +16,4 @@ lastmodifierdisplayname = "Siddhant Rimal"
 lastmodifieremail = "siddhantrimal@hotmail.com"
 +++
 
-Presentations are present in child-pages
+Command Shell

@@ -29,7 +29,7 @@ weight = 10
 [[menu.shortcuts]]
 name = "<i class='fa fa-bookmark'></i> Usage Documentation"
 identifier = "hugodoc"
-url = "https://themes.gohugo.io/theme/docdock/"
+url = "/documentation"
 weight = 20
 
 [[menu.shortcuts]]
