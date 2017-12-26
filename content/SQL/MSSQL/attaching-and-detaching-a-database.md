@@ -3,6 +3,7 @@ title= "Attaching and Detaching a Database"
 date= 2017-11-12T11:02:28+05:45
 description = ""
 draft= false
+weight=1
 # Type of content, set "slide" to display it fullscreen with reveal.js
 type="page"
 # Creator's Display name

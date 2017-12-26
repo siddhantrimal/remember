@@ -3,6 +3,7 @@ title= "Migrating Data From MSSQL2016server to MSSQL2012server"
 date= 2017-11-12T11:45:46+05:45
 description = ""
 draft= false
+weight=2
 # Type of content, set "slide" to display it fullscreen with reveal.js
 type="page"
 # Creator's Display name
