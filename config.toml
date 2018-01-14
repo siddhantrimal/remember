@@ -5,6 +5,9 @@ title = "Remember"
 theme = "docdock-remember"
 themesdir = "themes"
 
+# Enable comments by entering your Disqus shortname
+disqusShortname = "siddhantrimal"
+
 [params]
 editURL = "https://github.com/siddhantrimal/remember/edit/master/content/"
 showVisitedLinks = true # default is false
